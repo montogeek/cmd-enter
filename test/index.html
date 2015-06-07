@@ -11,13 +11,19 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/1.13.0/mocha.min.css">
+    <link rel="stylesheet" href="test.css">
     <title>CmdEnter tests</title>
   </head>
   <body>
-    <form action="http://google.com/">
-      <textarea name="test" id="test" cols="30" rows="10"></textarea>
-      <input type="submit" value="Enviar">
-    </form>
+    <div class="demo">
+      <h1>CmdEnter.js</h1>
+      <p>Submits your forms with (Cmd | Win | Ctrl) + Enter.</p>
+      <form action="http://google.com/">
+        <label for="test">Demo <span>Type in the textarea then hit Cmd + Enter.</span></label>
+        <textarea name="test" id="test"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
 
     <div id="mocha"></div>
 
