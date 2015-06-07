@@ -1,15 +1,18 @@
 'use strict'
 
-function CmdEnter(form, textarea) {
+function CmdEnter(textarea, form) {
+  this.textAreaElement = {}
+  this.formElement = {}
 
-  var formElement = document.querySelector(form);
-  var textareaElement = document.querySelector(textarea);
+  this.textAreaElement = (typeof textarea === 'undefined') ? document.querySelector('textarea') : document.querySelector(textarea)
 
-  // Check compatibility
-  textareaElement.addEventListener('keydown', function(event) {
-    // Check for metaKey, should be compatible with Windows, Linux and MacOSX.
+  this.formElement = (typeof form === 'undefined') ? document.querySelector('form') : document.querySelector(form)
+
+  this.textAreaElement.onkeydown = function(event) {
     if(event.keyCode === 13 && (event.ctrlKey || event.metaKey)) {
-      formElement.submit();
+      this.formElement.submit()
     }
-  });
+  }
 }
+
+module.exports = CmdEnter

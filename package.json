@@ -1,0 +1,23 @@
+{
+  "name": "CmdEnter",
+  "repository": "git@github.com:montogeek/cmd-enter.git",
+  "description": "Submit forms with Cmd + Enter.",
+  "author": "Fernando Montoya <montogeek@gmail.com>",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "node browserify.js",
+    "test": "npm run build && _mocha"
+  },
+  "devDependencies": {
+    "browserify": "7.0.3",
+    "mocha": "2.1.0"
+  },
+  "main": "index.js",
+  "keywords": [
+    "form",
+    "submit",
+    "cmd",
+    "enter"
+  ],
+  "license": "MIT"
+}
