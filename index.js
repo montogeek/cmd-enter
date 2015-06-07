@@ -8,11 +8,11 @@ function CmdEnter(textarea, form) {
 
   this.formElement = (typeof form === 'undefined') ? document.querySelector('form') : document.querySelector(form)
 
-  this.textAreaElement.onkeydown = function(event) {
+  this.textAreaElement.onkeydown = (function(event) {
     if(event.keyCode === 13 && (event.ctrlKey || event.metaKey)) {
       this.formElement.submit()
     }
-  }
+  }).bind(this)
 }
 
 module.exports = CmdEnter
