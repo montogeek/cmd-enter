@@ -243,3 +243,63 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+
+/**
+ * CmdEnter Demo page
+ */
+* {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.demo {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.demo h1 {
+  font-size: 2.8em;
+  font-weight: lighter;
+}
+
+.demo form {
+  width: 480px;
+  margin: 0 auto;
+}
+
+.demo label {
+  display: block;
+  text-align: left;
+  font-size: 1.3em;
+}
+
+.demo span {
+  color: #929292;
+  font-size: 0.6em;
+}
+
+.demo textarea {
+  display: block;
+  width: 100%;
+  resize: none;
+  height: 210px;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 0.9em;
+}
+
+.demo textarea:focus {
+  outline-color: tomato;
+}
+
+.demo input {
+  width: 100%;
+  margin: 30px auto;
+  padding: 20px 0;
+  background-color: tomato;
+  color: white;
+  border: 0;
+  font-size: 1em;
+}
