@@ -1,5 +1,5 @@
 {
-  "name": "CmdEnter",
+  "name": "cmdenter",
   "repository": "git@github.com:montogeek/cmd-enter.git",
   "description": "Submit forms with Cmd + Enter.",
   "author": "Fernando Montoya <montogeek@gmail.com>",
