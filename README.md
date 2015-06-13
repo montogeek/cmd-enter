@@ -28,6 +28,15 @@ Just create a new CmdEnter.js instance and you are ready to go
 </script>
 ```
 
+This will bind the `cmd + enter` key combination to all `textarea` elements on the page. Optionally you can specify a CSS selector as first parameter. Example:
+```javascript
+<script>
+  new CmdEnter('.comment')
+  new CmdEnter('#description')
+  new CmdEnter('form#register textarea')
+</script>
+```
+
 ## Browser Support
 
 - All modern browsers

@@ -1,6 +1,6 @@
 'use strict'
 
-var cmdenter = new CmdEnter()
+var cmdenter = new CmdEnter('form#demo textarea')
 
 describe('CmdEnter', function() {
   it('should attach event listener to textarea element', function() {
