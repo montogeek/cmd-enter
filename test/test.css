@@ -1,0 +1,58 @@
+/**
+ * CmdEnter Demo page
+ */
+* {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.demo {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.8em;
+  font-weight: lighter;
+}
+
+form {
+  width: 480px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  text-align: left;
+  font-size: 1.3em;
+}
+
+span {
+  color: #929292;
+  font-size: 0.6em;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  resize: none;
+  height: 210px;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 0.9em;
+}
+
+textarea:focus {
+  outline-color: tomato;
+}
+
+input {
+  width: 100%;
+  margin: 30px auto;
+  padding: 20px 0;
+  background-color: tomato;
+  color: white;
+  border: 0;
+  font-size: 1em;
+}
