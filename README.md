@@ -1,10 +1,10 @@
 # CmdEnter.js
 
-Submits any form with (Cmd | Win | Ctrl) + Enter.
+Submit any form with (Cmd | Win | Ctrl) + Enter.
 
 ## Why?
 
-Submits forms using Cmd + Enter (Mac) or Win + Ctrl (Windows) is a well known key combination that you may already use on Twitter, GitHub, Facebook, and another mayor sites.
+Submit forms using Cmd + Enter (Mac) or Win + Ctrl (Windows) is a well known key combination that you may already use on Twitter, GitHub, Facebook, and another mayor sites.
 
 It's great because is faster than move your mouse or hit tab to reach the submit button, you can save a few key strokes!.
 
