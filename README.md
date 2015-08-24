@@ -6,7 +6,7 @@ Submit any form with (Cmd | Win | Ctrl) + Enter.
 
 Submit forms using Cmd + Enter (Mac) or Win + Ctrl (Windows) is a well known key combination that you may already use on Twitter, GitHub, Facebook, and another mayor sites.
 
-It's great because is faster than move your mouse or hit tab to reach the submit button, you can save a few key strokes!.
+It's great because is faster than move your mouse to click the submit button or hit tab to reach the submit button, you can save a few key strokes!.
 
 ## Demo
 
