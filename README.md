@@ -4,7 +4,7 @@ Submit any form with (Cmd | Win | Ctrl) + Enter.
 
 ## Why?
 
-Submit forms using Cmd + Enter (Mac) or Win + Ctrl (Windows) is a well known key combination that you may already use on Twitter, GitHub, Facebook, and another mayor sites.
+Submit forms using Cmd + Enter (Mac) or Win + Ctrl (Windows) is a well known key combination that you may already use on Twitter, GitHub, Facebook, and another mayor websites.
 
 It's great because is faster than move your mouse to click the submit button or hit tab to reach the submit button, you can save a few key strokes!.
 
@@ -42,7 +42,7 @@ This will bind the `cmd + enter` key combination to all `textarea` elements on t
 - All modern browsers
 
 ## Made to you by
-[Fernando Montoya](http://github.com/montogeek) (FrontEnd developer)
+[Fernando Montoya](http://github.com/montogeek) (Frontend developer)
 
 [@montogeek](http://twitter.com/montogeek)
 
